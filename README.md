@@ -1,23 +1,10 @@
 # CSIG Multi-View Anomaly Detection · V372
 
-复杂工业场景下的五视角异常检测研究代码，整理自李林航的第七届 CSIG 图像图形技术挑战赛复赛实验。
+复杂工业场景下的五视角异常检测研究代码，基于 Dinomaly2 与 DINOv3，包含训练、正常特征记忆、校准、融合推理和审计流程。
 
-**本次整理的最佳版本：V372；用户反馈的 B 榜成绩：75.1101。**
+**代码版本：V372。**
 
-This repository archives a five-view industrial anomaly detection pipeline built on Dinomaly2 and DINOv3. The best user-reported B-board score is **75.1101**. It is a research release, with CPU contract tests and source provenance; full inference requires external data, checkpoints, and historical calibration artifacts.
-
-## 成绩记录
-
-| 版本 | 方案标识 | 用户反馈的 B 榜分数 |
-| --- | --- | ---: |
-| V340 | clean | 73.9776 |
-| V344 | clean longrun | 74.8857 |
-| V362 | category memory 560 | 75.0336 |
-| V366 | clean calibrated | 75.0290 |
-| **V372** | **dense memory** | **75.1101** |
-
-成绩来自项目维护者提供的天池结果记录，本次发布未登录官网重新核验。后续 Large 实验出现回退，因此不将它们作为本仓库的推荐方案。
-初赛 A 榜与复赛 B 榜的测试范围不同，初赛成绩不用于表示本仓库的复赛表现。这里没有第一名、满分或 80 分以上的结果声明。
+This repository archives a five-view industrial anomaly detection pipeline built on Dinomaly2 and DINOv3. It is a research release, with CPU contract tests and source provenance; full inference requires external data, checkpoints, and historical calibration artifacts.
 
 ## 方法
 
@@ -113,7 +100,7 @@ export PYTHONPATH="$PWD/Dinomaly2_dinov3:$PWD:$PWD/scripts"
 
 - 辅助数据按类别留出，训练清洗排除目标类别及已知精确重叠物体；这不能排除所有语义相关或近重复关系。
 - 正常建库与校准按物体隔离；原生产校准分区保留已知空白重复物体，不作为独立质量验证集。
-- 本仓库没有 B 榜分项指标，也不能仅由总分定位泛化误差来源。
+- 合成数据测试用于检查实现约束，不替代独立的真实场景质量评估。
 - 图像、数据标签、模型权重、预测结果和服务器运行日志均不在公开内容中。
 
 ## 致谢与使用条件
@@ -122,5 +109,3 @@ export PYTHONPATH="$PWD/Dinomaly2_dinov3:$PWD:$PWD/scripts"
 维护者的贡献主要是五视角比赛数据适配、类别隔离训练与选择、正常记忆扩充、校准、融合和审计；不将第三方模型架构归为原创。
 
 本次整理未为整个仓库另行指定统一开源许可证。公开可读不等于已授予任意复制、修改或再分发许可；第三方依赖和数据分别遵循其原始条款。
-
-维护者：李林航。

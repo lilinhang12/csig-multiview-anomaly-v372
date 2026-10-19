@@ -246,7 +246,7 @@ def run(args):
               'reference_q99_range': [min(r['reference_q99'] for r in results.values()), max(r['reference_q99'] for r in results.values())],
               'elapsed_seconds': time.monotonic() - started,
               'quality_status': 'normal_only_calibration_and_crossfit_not_defect_quality_validation',
-              'test_b_accessed': False, 'new_training': False, 'online_best_reported': {'V362': 75.0336}}
+              'test_b_accessed': False, 'new_training': False}
     (output / 'manifest.json').write_text(json.dumps(report, indent=2, allow_nan=False), encoding='utf-8')
     print(json.dumps({k: v for k, v in report.items() if k not in ('categories_detail', 'source_files_sha256', 'partition', 'preprocess_environment', 'selected_checkpoints')}), flush=True)
     return report

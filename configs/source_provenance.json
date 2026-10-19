@@ -242,9 +242,10 @@
     },
     "scripts/v365_ensemble_category_calibration.py": {
       "original_sha256": "0ad3a06dda3c3e329e44ef73d107c501a23960f935cf46396d5ba9badcd1fc88",
-      "published_sha256": "88ace631000afcc75a401aac8e10863a47c1d78927a491af059e7ea32840ce8e",
+      "published_sha256": "db466f9718e7ef7630f154f03a5855d90848e03953421cd0b2de2f8ee21222ff",
       "bound_to_v372_audit": true,
       "private_root_replaced": true,
+      "personal_metadata_removed": true,
       "lf_line_endings": true
     },
     "scripts/v366_calibrated_seen_submission.py": {

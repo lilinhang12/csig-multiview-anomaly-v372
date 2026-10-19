@@ -5,15 +5,15 @@
   "test_failures": 0,
   "test_errors": 0,
   "tests_skipped": 0,
-  "scope": "Public-copy CPU contract tests and release-source integrity. No GPU or blind-score rerun.",
+  "scope": "Prior CPU contract test run retained; current metadata-only privacy update verified by source integrity and computation equivalence. No GPU evaluation rerun.",
   "test_files": [
     "tests/test_v372_dense_export.py",
     "tests/test_v372_dense_inference.py",
     "tests/test_v372_numerical_audit.py"
   ],
   "elapsed_seconds": 338.218,
-  "release_manifest_sha256": "595a1a92c6e88cf82efdf3b2c4312ea577104d0727623cd1b624967356388259",
-  "source_integrity_files_verified": 62,
+  "release_manifest_sha256": "feb306a4c62617974378f9e66eb61466444bd2d52f1b6523ff4640d6c1914479",
+  "source_integrity_files_verified": 61,
   "credential_and_private_endpoint_scan": "passed_during_preparation",
   "versions_used_for_public_copy_tests": {
     "numpy": "2.2.6",
@@ -22,5 +22,12 @@
     "torch": "2.12.1"
   },
   "gpu_training_rerun": false,
-  "github_publication_verified": false
+  "github_publication_verified": false,
+  "cpu_test_run_manifest_sha256": "595a1a92c6e88cf82efdf3b2c4312ea577104d0727623cd1b624967356388259",
+  "privacy_update_checks": {
+    "report_metadata_field_removed": true,
+    "computation_ast_unchanged": true,
+    "other_source_and_test_files_byte_unchanged": 47
+  },
+  "current_public_files_personal_and_competition_results_scan": "passed"
 }
