@@ -1,0 +1,29 @@
+{
+  "source": "summary_of_original_producer_audit",
+  "original_producer_audit_sha256": "2255084c4c9af11ccadd3bdfd0ced4664186f398a4594927ebbc16fbc1177c8a",
+  "groups": 2250,
+  "masks": 11250,
+  "seen_masks": 6250,
+  "unseen_masks": 5000,
+  "csv_byte_exact": true,
+  "unseen_byte_exact": true,
+  "mode": "L",
+  "dimensions": [
+    448,
+    448
+  ],
+  "replay": {
+    "old_scale_masks_checked": 6250,
+    "old_scale_mismatched_masks": 0,
+    "old_scale_mismatched_pixels": 0,
+    "old_scale_max_abs_error": 0,
+    "reference_score_groups_checked": 1250,
+    "reference_score_mismatched_groups": 0,
+    "reference_score_max_abs_error": 4.999889391399392e-13,
+    "reference_score_tolerance": 1e-06
+  },
+  "prediction_archive_sha256": "8bc460eacbcfdb971aed5a1381e0e5039c37e7b6b7f37ebefdf7a6a3ccd9373c",
+  "test_b_labels_accessed": false,
+  "no_per_sample_predictions_or_test_indexes_distributed": true,
+  "quality_scope": "Artifact and numerical consistency checks, not an independent blind-score measurement."
+}

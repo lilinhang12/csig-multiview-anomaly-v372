@@ -1,0 +1,32 @@
+{
+  "relative_paths_and_sha256_only": {
+    "outputs/v362_category_memory_B_560_package_only_retry_20260912/manifest.json": "55c78ab3eb2865e55ec66a6661ec146958da9b5ed60606660e2954bf588a3543",
+    "outputs/v362_category_memory_B_560_package_only_retry_20260912/submission.zip": "a99079d7cced250a8f4a0043135d676f91cf600cb1cb287a85e35e1a0213363e",
+    "outputs/v355_seen_category_calibration_560_20260912/seen_category_i560/manifest.json": "928fd5d069a7088a7064bf87e6efd653663914b8d18f200d697d4211d80777f6",
+    "outputs/v352_clean_memory_bank_env_20260911/i560/memory.npz": "dcb55dc7ae0ed7bf1a771c22359af8623df363fcb43d300091717eb83ad99c31",
+    "outputs/v352_clean_memory_bank_env_20260911/i560/manifest.json": "eeae247bc3cf9d22811ba976bb27c842f238935d0094703920839f7af28ba483",
+    "outputs/v368_nested_density_20260912/summary.json": "3e095ce644ec2d5cec9c4e4916d8b4de81c4d4132fa39865f3645ce09544b3ef",
+    "outputs/v369_visa_confirm_20260913/manifest.json": "7e457f42cfd07406d4b26b8a9963ecb9d8420c590f27d537bb084ddf8063eb53",
+    "outputs/v368_nested_density_20260912/fold0/report.json": "f0020441926cd386a76608756fa1338bc04ebbc020edf5da3c270b81a4fd84fe",
+    "outputs/v368_nested_density_20260912/fold1/report.json": "9c48909c07be73aab6050d65c2debd375672f075575ba482fb5fb64303d88b95",
+    "outputs/v368_nested_density_20260912/fold2/report.json": "e3c9c7e4ee91c60b0e13ee007c7e70cada95cac6dc377633efe0a7f8fccde2ca",
+    "outputs/v368_nested_density_20260912/fold3/report.json": "20b2528288fcb825d74fb536443b7abce9c5190bb92ebe8d8e5ec3a0fb7a7934",
+    "outputs/v339_independent_clean_replay_final_20260910/clean_selection_gate.json": "a416d90afa64c9b95ea776ebd6770c7ef5af991801b2da2b3a35f7fbbaed310e",
+    "outputs/v343_verified_longrun_20260911/fold0/selection.json": "2b3f7151433d6e8a8fe4412fbe769dbe81a3515ac58f9cec8eefb16602ef5214",
+    "outputs/v343_verified_longrun_20260911/fold1/selection.json": "d224d77836aa77c381269723b488c1b16f8411ea82d7dd57ada68994d9e5cb3a",
+    "outputs/v343_verified_longrun_20260911/fold2/selection.json": "3ffa7d36e44ddbd5ba6c0d4306ee6c94fbd4463e37bef846b92e6d61167449cd",
+    "outputs/v343_verified_longrun_20260911/fold3/selection.json": "73f760a7188001c625474d1ae3b11cee2fe704ab5b03aa9c424a973dd659d9b5",
+    "outputs/v342_clean_longrun_20260911/fold0/checkpoints/state_i003000.pt": "a5e03e2ca035253cc4d644e14cb21fb2edf465d1c321a990bf45f425645055e9",
+    "outputs/v336_clean_pilot_20260910/fold1/checkpoints/state_i001000.pt": "027e07cf6d3dd321a2dc6f6ded369b4c1c8c7536c31324f0a820d62d9ec40ea9",
+    "outputs/v342_clean_longrun_20260911/fold2/checkpoints/state_i005000.pt": "5d0320eb7434da430bb53279c74f8ddb939ee7c3ae9558d661f0ae82e53bb830",
+    "outputs/v336_clean_pilot_20260910/fold3/checkpoints/state_i001000.pt": "8d04c37a7a27d6a07f9cd7c4d62a01882460fbee73c5ce81ac1ba1fc105a9144",
+    "outputs/v342_clean_longrun_20260911/fold0/immutable_config.json": "2bb525312b19a9ccd4819c13005481935cfa452994ae2b964418c63ca3020bfd",
+    "outputs/v342_clean_longrun_20260911/fold1/immutable_config.json": "8845622e9816290ddaf478c48f6489056a2fdab5441f6516ec49430ace7cd5e9",
+    "outputs/v342_clean_longrun_20260911/fold2/immutable_config.json": "852a9634591e8c73eb318cc50f50bd60f5d4ea34d21e8d00c164a45447eaaad3",
+    "outputs/v342_clean_longrun_20260911/fold3/immutable_config.json": "8571b65645fcb1f630bd1cac54c1c6635d1c9a6466a44b15b42e798238caef5e",
+    "outputs/v348_memory_smoke_reviewed_20260911/source_partition.json": "5afe17f53ddde0d8d146d07d6e5414e72fa1b40a561c29f33100bf238ceabcee",
+    "Train.zip": "a62414e7aa11b32c73ef97f8513a5425ede5510e72e4f13893b31da8f8d62c23",
+    "Test_B.zip": "aa6e94973b98c596e12d0e1c267547c2aa26397f52c9a1a54a0a43b573bd3aeb"
+  },
+  "note": "External artifacts are not distributed; frozen JSON contents and test sample indexes are omitted."
+}

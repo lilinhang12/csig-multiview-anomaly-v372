@@ -1,0 +1,13 @@
+{
+  "python_version": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "torch_version": "2.3.1+cu118",
+  "torchvision_version": "0.18.1+cu118",
+  "pillow_version": "9.5.0",
+  "numpy_version": "1.24.3",
+  "cuda_version": "11.8",
+  "cuda_device": "Tesla P100-PCIE-16GB",
+  "cuda_capability": [
+    6,
+    0
+  ]
+}

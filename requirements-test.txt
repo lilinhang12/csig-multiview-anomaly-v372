@@ -1,0 +1,4 @@
+numpy==1.24.3
+Pillow==9.5.0
+pytest>=8.0,<9.0
+# Install torch separately using the CPU or CUDA index appropriate to the machine.

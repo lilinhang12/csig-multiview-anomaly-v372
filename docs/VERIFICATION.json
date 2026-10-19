@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "verified_on": "2026-10-19",
+  "tests_passed": 87,
+  "test_failures": 0,
+  "test_errors": 0,
+  "tests_skipped": 0,
+  "scope": "Public-copy CPU contract tests and release-source integrity. No GPU or blind-score rerun.",
+  "test_files": [
+    "tests/test_v372_dense_export.py",
+    "tests/test_v372_dense_inference.py",
+    "tests/test_v372_numerical_audit.py"
+  ],
+  "elapsed_seconds": 338.218,
+  "release_manifest_sha256": "595a1a92c6e88cf82efdf3b2c4312ea577104d0727623cd1b624967356388259",
+  "source_integrity_files_verified": 62,
+  "credential_and_private_endpoint_scan": "passed_during_preparation",
+  "versions_used_for_public_copy_tests": {
+    "numpy": "2.2.6",
+    "Pillow": "12.0.0",
+    "pytest": "8.4.2",
+    "torch": "2.12.1"
+  },
+  "gpu_training_rerun": false,
+  "github_publication_verified": false
+}

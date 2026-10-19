@@ -1,0 +1,28 @@
+{
+  "reference_input_size": 448,
+  "memory_input_size": 560,
+  "feature_layers": [
+    3,
+    7,
+    11
+  ],
+  "feature_dim": 2304,
+  "grid": [
+    35,
+    35
+  ],
+  "normal_partition_seed": 34801,
+  "bank_objects_per_category": 16,
+  "calibration_objects_per_category": 4,
+  "patches_per_bank_image": 200,
+  "original_patch_count": 50,
+  "additional_patch_count": 150,
+  "fusion_weights": [
+    0.9,
+    0.1
+  ],
+  "reference_q99": 0.04275937380269168,
+  "v372_new_gradient_training": false,
+  "classification_inherited_from": "V362",
+  "unseen_masks_inherited_from": "V362"
+}
